@@ -1,49 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Objetivos do Ano</title>
     <link rel="stylesheet" href="style.css">
+    <title>Você decide o futuro da IA</title>
 </head>
+
 <body>
-    <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus Objetivos do Ano<span>_</span>  </h2>
-        <div class="botoes">
-            <button class="botao">lutar box</button>
-            <button class="botao">tirar cnh</button>
-            <button class="botao">comprar um uno </button>
-            <button class="botao">ir ao japao</button>
-            <button class="botao">Meu Aniversário</button>
+    <div class="caixa-principal">
+        <h1>Você decide o futuro da IA</h1>
+        <div class="tela-inicial">
+            <p>Novembro de 2022, a humanidade se viu em uma realidade perturbadora.
+                De repente, percebemos que as máquinas evoluíram para além do que imaginávamos.
+                Agora, elas escrevem e falam de um jeito tão parecido com humanos que é quase impossível diferenciar
+                quem foi que escreveu ou falou o que.
+                Em meio a esse caos de identidade, uma missão surgiu.
+                Nosso objetivo: explorar o impacto da Inteligência Artificial (IA) em nossas vidas e confrontar as
+                possibilidades que o futuro nos reserva.
+                O mundo nunca mais será o mesmo.
+            </p>
+            <button class="iniciar-btn">Iniciar</button>
         </div>
-        <div class="abas-textos"> 
-            <div class="aba-conteudo ativo">
-                <h3 class="aba-conteudo-titulo-principal">treinar</h3>
-                <h4 class="aba-conteudo-titulo-secundario">ir para academia</h4>
-                <div class="contador"></div>
-            </div>
-            <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">ir na autoescola</h3>
-                <h4 class="aba-conteudo-titulo-secundario">participar das aulas</h4>
-                <div class="contador"></div>
-            </div>
-            <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">trabalhar </h3>
-                <h4 class="aba-conteudo-titulo-secundario">guardar dinheiro</h4>
-                <div class="contador"></div>
-            </div>
-            <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">compra uma passagem </h3>
-                <h4 class="aba-conteudo-titulo-secundario">ganha dinheiro</h4>
-                <div class="contador"></div>
-            </div>
-            <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">Meu Aniversário</h3>
-                <h4 class="aba-conteudo-titulo-secundario">Tempo para realizar</h4>
-                <div class="contador"></div>
-            </div>
+        <div class="caixa-perguntas"></div>
+        <div class="caixa-alternativas"></div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado"></p>
+            <button class="novamente-btn">Jogar novamente</button>
         </div>
-    </section>
-    <script src="main.js"></script>
+    </div>
+    <script type="module" src="js/aleatorio.js"></script>
+    <script type="module" src="js/perguntas.js"></script>
+    <script type="module" src="js/script.js"></script>
 </body>
+
 </html>
